@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import about_img from '../Img/about_img.jpg';
 import Map from './Map Section/Map';
 import styles from "../Components/About Section/about.module.css";
+import ContactForm from './ContactForm/ContactForm';
 
 const Contact = () => {
   return (
@@ -14,28 +15,15 @@ const Contact = () => {
         </Col>
       </Row>
       <Row>
-        <Col className='mx-auto' md={6} xs={12}>
-          <h1 className='text-center mt-5'>Contact Us</h1>
+        <Col md={12} xs={12}>
+          {/* Contact Form */}
+          <ContactForm />
         <hr  className='mb-5 w-25 mx-auto' />
         </Col>
         <Col className='mx-auto' md={8} xs={12}>
         <Map />
         </Col>
       </Row>
-      <div className='container-fluid mt-5' >
-      <div className={styles.aboutSection}>
-        <div className={styles.opacityBg}>
-          <div className={styles.details}>
-            <form>
-              <input placeholder='Name' /><br />
-              <input placeholder='email' /><br />
-              <input placeholder='Subject' /><br />
-              <input placeholder='Message' /><br />
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     </Container>
     </div>
   )

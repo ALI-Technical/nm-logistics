@@ -1,0 +1,46 @@
+.sliderBox {
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.slideItem {
+    background-image: url("https://source.unsplash.com/600x700/?cars");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 86vh;
+}
+
+.slickArrows {
+    font-size: 35px;
+    background: none;
+    font-weight: 900;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    padding: 7px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.slickArrows:hover{
+    background-color: var(--object-background);
+    border: none;
+}
+
+.slickNext {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+.slickPrev {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}

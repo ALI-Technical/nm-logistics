@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import about_img from '../Img/about_img.jpg';
+import ReviewSlider from './ReviewSlider'
 const About = () => {
   return (
     <Container fluid>
@@ -28,9 +29,11 @@ const About = () => {
             nihil voluptates alias nesciunt, earum dicta nostrum
             animi commodi rerum nam.</p>
         </Col>
+        <Col>
+        <ReviewSlider />
+        </Col>
       </Row>
     </Container>
-
 
   )
 }

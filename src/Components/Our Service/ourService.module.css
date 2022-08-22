@@ -10,14 +10,16 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.topBox{
+    margin: 20px;
+}
 
+.cardHeading{
+    
+}
 .heading {
     text-align: center;
     margin-bottom: 50px;
-}
-.span {
-    color: rgb(49, 49, 194);
-    text-decoration: underline;
 }
 /* Service Card */
 .serviceCard {
