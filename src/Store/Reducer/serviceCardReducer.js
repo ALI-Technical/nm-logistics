@@ -2,13 +2,13 @@ const INITIAL_STATE = {
     cards: [
         {
             id: 1,
-            name: 'By Ship',
+            name: 'By Air',
             Pic : '1.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 2,
-            name: 'By Air',
+            name: 'By Ship',
             Pic : '2.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },

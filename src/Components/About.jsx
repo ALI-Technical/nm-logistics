@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import about_img from '../Img/about_img.jpg';
-import ReviewSlider from './ReviewSlider'
+import Slider1 from '../Img/Slider1.jpg';
+import ReviewSlider from './Testimonials/ReviewSlider'
 const About = () => {
   return (
     <Container fluid>
       <Row>
         <Col md={12} xs={12}>
-          <img src={about_img} width='100%' height={400} />
+          <img src={Slider1} width='100%' height={400} />
         </Col>
       </Row>
       <Row>
