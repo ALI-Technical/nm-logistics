@@ -20,7 +20,9 @@ const ServiceCard = () => {
       {cards.map((item, ind) => (
         <section
           key={ind}
-          data-aos="zoom-in"
+          data-aos={item.animateCard_1}
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           className={`${styles.topBox} bg-gray-900 flex justify-center items-center gap-x-16 text-white`}
         >
           <div

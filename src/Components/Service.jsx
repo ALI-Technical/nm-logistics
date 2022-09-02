@@ -46,6 +46,9 @@ const Service = () => {
         <Row>
           {cards.map((item, ind) => (
             <Col md={6}
+              data-aos={item.animateCard_2}
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
             >
               <section
                 className={`${styles.cardCmpnt} block overflow-hidden border border-gray-100 rounded-lg shadow-sm`}>
@@ -68,7 +71,7 @@ const Service = () => {
                     className="inline-block pb-1 mt-4 font-medium text-blue-600 ">
                     <button className={`${styles.detailsBtn}`}>
                       <Link
-                        to={`service_detail/${item.id}`}>Go To Details <FaArrowRight /></Link>
+                        to={`/service_detail/${item.id}`}>Go To Details <FaArrowRight /></Link>
                     </button>
                   </div>
                 </div>
