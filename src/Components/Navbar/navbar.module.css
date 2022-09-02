@@ -16,6 +16,7 @@
     color: gray;
     position: relative;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
 }
 .Link::after{
     content: '';
