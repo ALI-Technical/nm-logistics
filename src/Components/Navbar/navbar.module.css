@@ -27,7 +27,7 @@
     transition: 0.5s;
 }
 .Link:hover{
-    color: #000;
+    color: var(--object-background);
 }
 .Link:hover::after{
     width: 100%;

@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const Map = () => {
   return (
     <Container className='mt-5'>
-      <h1 className="text-3xl text-center underline decoration-blue-700 mb-7 font-semibold text-gray-800 capitalize lg:text-4xl light:text-white">meet us here</h1>
+      <h1 className="text-3xl text-center underline decoration-objBackground-base mb-7 font-semibold text-gray-800 capitalize lg:text-4xl light:text-white">meet us here</h1>
         <iframe className="gmap_iframe my-3"
           style={{
           height: '500px',

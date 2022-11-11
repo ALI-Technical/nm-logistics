@@ -40,10 +40,9 @@ const HomeServiceCard = ({ item }) => {
         <Link to={`/service_detail/${item.id}`}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6"
+            className="w-6 h-6 stroke-objBackground-base"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
           >
             <path
               strokeLinecap="round"

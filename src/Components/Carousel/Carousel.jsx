@@ -75,7 +75,7 @@ const Carousel = () => {
                 <p>Lorem ipsum dolor sit amet.</p>
                 <div className={`${styles.btnDiv} container animate__animated animate__backInUp`}>
                     <Link to={'/contact'} ><Btn4 btnName={'Contact Us'} /></Link>
-                    <Link to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
+                    <Link className="text-decoration-none" to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
                 </div>
             </div>
             <div className={`${styles.slideItem} ${styles.slide2}`}>
@@ -83,7 +83,7 @@ const Carousel = () => {
                 <p>Lorem ipsum dolor sit amet.</p>
                 <div className={`${styles.btnDiv} container animate__animated animate__backInUp`}>
                     <Link to={'/contact'} ><Btn4 btnName={'Contact Us'} /></Link>
-                    <Link to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
+                    <Link className="text-decoration-none" to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
                 </div>
             </div>
             <div className={`${styles.slideItem} ${styles.slide3}`}>
@@ -91,7 +91,7 @@ const Carousel = () => {
                 <p>Lorem ipsum dolor sit amet.</p>
                 <div className={`${styles.btnDiv} container animate__animated animate__backInUp`}>
                     <Link to={'/contact'} ><Btn4 btnName={'Contact Us'} /></Link>
-                    <Link to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
+                    <Link className="text-decoration-none" to={'/service'} ><Btn3 btnName={'Our Service'} /></Link>
                 </div>
             </div>
         </Slider>
