@@ -12,7 +12,7 @@ const Navb = () => {
 
             <ContactNav />
 
-            <Navbar bg="light" expand="lg" className={styles.Navbar} sticky="top">
+            <Navbar bg="light" expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand className='w-32'><img src={Logo} className={styles.Logo}/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
